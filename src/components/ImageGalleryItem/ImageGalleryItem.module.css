@@ -1,0 +1,14 @@
+.imageGalleryItem {
+  display: block;
+  max-width: 100%;
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 5px rgb(164, 218, 220);
+}
+
+.imageGalleryItem:hover {
+  transform: scale(1.03);
+  cursor: zoom-in;
+}
